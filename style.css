@@ -5,7 +5,6 @@ body{
 }
 
 model-viewer {
-border: 1px solid red;
   width: 400px;
   height: 400px;
   margin: auto;
@@ -13,7 +12,6 @@ border: 1px solid red;
 
 
 .box{
-	border: 1px solid black;
 	margin-top: 5%;
 	margin-left: auto;
     margin-right: auto;
@@ -26,41 +24,44 @@ h1{
 	width: 400;
 	height: 10;
 	margin:auto;
-	font-size: 17px;
+	font-size: 5vw;
 }
 
 .cimage{
+	background-color: green;
 	display: block;
 	margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-	border: 1px solid black;
 	width:400px; 
 	height:400px; 
 }
 
 
-ul{	
-	border: 1px solid black;
-	font-size: 12px;
-	color: blue;
+ul {
+	background-color: red;
+	font-weight: bold;
+	font-size: 2vw;
     margin-top:100px;
-    display: flex;
-    flex-wrap: wrap;
     margin-left:auto;
     margin-right:auto;
-
+    height: 20px;
+    flex-wrap: wrap;
+   	display: flex;
+   
+	
 }
 
-ul li{
-    
+li{
 	list-style-type: none;
-	width: 32%;
+    height: 10px;
+   	width: 100%;
 
 
 }  
 
 .sinistra{
+
 	text-align:left;
 }  
 .centro{
