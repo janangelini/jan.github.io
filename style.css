@@ -23,7 +23,7 @@ h1{
 	margin-left: 4%;
 }
 
-model-viewer{
+.boximg {
 	margin-top: 20px;
 	width:80%;
 	height:auto;
@@ -33,7 +33,7 @@ model-viewer{
 
 }
 
-.cimage {
+model-viewer {
     margin-inline:auto;
 	max-width:100%;  
 }
