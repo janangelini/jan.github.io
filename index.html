@@ -2,12 +2,13 @@
 <html lang="en">
 <html>
 <head>
+	<script src="script.js"></script>
 	<link type="text/css" href="./style.css" rel="stylesheet"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 	<title>MOG</title>
 </head>
-<body>
+<body id="colorscheme">
 	<div class="box">
 		<h1>
 		    Monika Grycko
@@ -23,7 +24,7 @@
 		</div>
 	</div>
 	<div>
-		<button class="button">
+		<button type="button" value="ON" onclick="changeColor()" id="button">
 		Button
 		</button>
 	</div>

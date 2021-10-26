@@ -1,8 +1,15 @@
-html, body{
+:root {
+	--border-color:0px solid black;
+  }
+
+
+
+body{
 	 font-family: Arial, Helvetica, sans-serif;
 	 margin: 0px;
 	 padding: 0px;
 	 height: 100%;
+  	 transition-duration: 0.9s;
 }
 
 
@@ -12,27 +19,30 @@ html, body{
 
 
 .box {
+	border: var(--border-color);
 	display: block;
 	position: absolute;
 	top: 35%;
 	transform: translate(50%, -35%);
     width:50%;
-	height:80%;
+	height:fit-content;
 }
 
 h1{
+	border: var(--border-color);
 	font-weight: normal;
 	font-size: 25px;
 	margin-top: 0px;
+	margin-bottom: 10px;
 }
 
 .boximg {
+	border: var(--border-color);
 	width:80%;
-	height:70%;
-	margin-top:20px;
-	margin-inline: auto;
+	height:300px;
+	margin-left: 0px;
+	margin-top:0px;
 	display: flex;
-  	align-items: flex-start;
 }
 
 model-viewer {
@@ -43,7 +53,8 @@ model-viewer {
 }
 
 .menu{
-	margin-top: 30px;
+	border: var(--border-color);
+	margin-top: 20px;
 	width:auto;
 	display: flex;
 	flex-wrap: wrap;
@@ -51,24 +62,24 @@ model-viewer {
 
 .butt{
 	margin-top: 12px;
-	text-align: center;
+	text-align: left;
 	flex: 1 1 200px;
 	font-size:15px;
-	background-color: white;
+	background-color:transparent;
 	cursor: crosshair;
 }
 .butt:hover{
 	color:white;
 }
 
-.button {
-	background-color: darksalmon;
+button {
+	background-color:transparent;
 	position: sticky;
 	float: right;
   	border: none;
-  	color: white;
+  	color: black;
   	padding: 5px 8px;
-  	text-align: center;
+  	text-align: right;
   	text-decoration: none;
   	font-size: 16px;
   	cursor: pointer;
