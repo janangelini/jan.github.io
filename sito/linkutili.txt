@@ -1,6 +1,0 @@
-link utili al sito
-
-per una funzione javascript che interagisca con piu elementi:
-https://www.w3schools.com/jsref/met_document_getelementsbyclassname.asp
-
-https://www.youtube.com/watch?v=MhMaeIpkZhk&ab_channel=A4Web_Tech
